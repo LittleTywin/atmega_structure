@@ -5,7 +5,7 @@
 			"name": "Debug",
 			"type": "cppdbg",
 			"request": "launch",
-			"program": "${workspaceFolder}/Target/Debug/test.elf",
+			"program": "${workspaceFolder}/build/debug/{binary name}.elf",
 			"MIMode": "gdb",
 			"miDebuggerPath": "/usr/bin/avr-gdb",
 			"miDebuggerServerAddress": "localhost:1442",
