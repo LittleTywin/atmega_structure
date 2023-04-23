@@ -1,0 +1,21 @@
+environments:
+  default:
+    debugTool:
+      name: "atmel-ice"
+      releasePostDebugSession: false
+
+    target:
+      name: "atmega168"
+      #variantName: "atmega168v"
+      physicalInterface: "debug-wire"
+      disableDebugWirePreDisconnect: true
+      manageDwenFuseBit: true
+      cycleTargetPowerPostDwenUpdate: true
+
+    debugServer:
+      name: "avr-gdb-rsp"
+      ipAddress: "127.0.0.1"
+      port: 1442
+
+insight:
+  enabled: true
